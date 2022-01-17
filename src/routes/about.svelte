@@ -1,9 +1,3 @@
-<script>
-  import Title from '$lib/title.svelte'
-</script>
-
-<Title title="Title Changed Again"/>
-
 <div class="about">
     <h2>About Us</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo ex quis modi dignissimos vero eligendi porro? Consequuntur tempora praesentium non?</p>
