@@ -20,8 +20,8 @@
       justify-content: center;
     }
     main {
-      max-width: 960px;
-      margin: 20px auto;
+      max-width: 60rem;
+      margin: 1.25rem auto;
     }
     footer {
       text-align: center;

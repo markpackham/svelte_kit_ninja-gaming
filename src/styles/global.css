@@ -1,7 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Oxygen&display=swap");
-
 body {
-    background: #422d5d;
+    background: hsl(266, 35%, 27%);
     margin: 0;
 }
 
@@ -12,7 +10,7 @@ h4,
 a,
 p,
 li {
-    color: #decff1;
-    font-family: 'VT323', monospace;
+    color: hsl(266, 55%, 88%);
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     font-weight: normal;
 }
