@@ -1,8 +1,10 @@
 <!-- to fetch external data use <script context="module"></script> -->
 <script context="module">
 export async function load({fetch}){
-  const res = await fetch('https://jsonplaceholder.typicode.com/posts')
-  const guides = await res.json()
+  // const res = await fetch('https://jsonplaceholder.typicode.com/posts')
+  const res = await fetch('/guides.json')
+  // const guides = await res.json()
+  const {guides} = await res.json()
 
   if(res.ok){
     return {
